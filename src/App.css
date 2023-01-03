@@ -1,0 +1,52 @@
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.task-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-update {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  margin: auto;
+}
+.form-container {
+  text-align: center;
+  padding-top:10%;
+}
+.form-container form {
+  display: flex;
+  width: 700px;
+  margin: 15px auto;
+}
+.search-tasks {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.search-tasks label {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.search-tasks input {
+  margin-left: 8px;
+}
+.App {
+  background: linear-gradient(
+    90deg,
+    rgba(48, 16, 255, 1) 0%,
+    rgb(255, 115, 0) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat ;
+  min-height: 720px;
+  padding: auto;
+}
+.Groupe-Tasks {
+  width: 800px;
+  margin: auto;
+  background-color: rgba(251, 255, 0, 0.377);
+}
